@@ -1,5 +1,16 @@
-body {
-    background-color: orange;
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
 }
 
 .alata-regular {
@@ -24,4 +35,8 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
