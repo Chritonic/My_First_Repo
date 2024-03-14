@@ -9,15 +9,35 @@ nav {
 }
 
 ul {
-    width: 50%;
+    width: 55%;
     margin-left: auto;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 5px 10px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+img { /* This so my alt image text shows up against the dark background */
+    color: white; 
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #header1 {
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
 }
 
 #header2 {
@@ -33,20 +53,58 @@ ul {
 }
 
 #header4 {
-    font-family: "Alata", sans-serif;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     font-style: normal;
+    font-size: 1.5rem;
+}
+
+#header5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
 }
 
 #pText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#liText{
+#liText {
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2.5rem;
+}
+
+.heroAbout {
+    display: flex;
+    align-items: center;
+}
+
+.heroAboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .alata-regular {
